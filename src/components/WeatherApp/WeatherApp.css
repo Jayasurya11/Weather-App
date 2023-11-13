@@ -1,0 +1,94 @@
+
+.container{
+    width:700px;
+    height:100%;
+    margin:0 auto;
+    background-image: url('../assets/clouds-3488632_640.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    background: transparent linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    height:100%;
+
+}
+.bg p{
+    font-size:xx-large;
+    color:white;
+    padding-top:60px;
+    font-weight: 700;
+}
+    /* background: linear-gradient(180deg, rgba(122, 126, 241,0.2) 5%, rgba(14, 19, 156,0.2) 95%); */
+    /* background: transparent; */
+
+.top-bar{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.top-bar input{
+    width:250px;
+    display: block;
+    height:35px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border:none;
+    
+}
+.search-icon{
+    width:35px;
+    height:35px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    border-radius: 50%;
+    padding:2px;
+}
+.weather-image{
+    margin-top: 29px;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-size: 60px;
+    font-weight: 400;
+}
+.weather-location{
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.data-container{
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-top: 50px;
+}
+.element{
+    margin:auto;
+    display:flex;
+    gap:12px;
+    align-items: flex-start;
+}
+.data{
+    font-size: 34px;
+    font-weight: 400;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom:20px;
+}
+.icon{
+    margin-top:10px;
+}
